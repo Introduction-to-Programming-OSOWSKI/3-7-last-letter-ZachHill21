@@ -1,1 +1,9 @@
-#WRITE YOUR CODE IN THIS FILE
+
+def printLastChar(string): 
+    string = string + " "
+    for i in range(len(string)): 
+        if string[i] == ' ': 
+            print(string[i - 1], end = " ") 
+  
+string = "minnow"
+printLastChar(string) 
