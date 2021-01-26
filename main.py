@@ -5,5 +5,5 @@ def lastLetter(string):
         if string[i] == ' ': 
             print(string[i - 1], end = " ") 
   
-string = "minnow"
+string = "minnesota"
 lastLetter(string) 
