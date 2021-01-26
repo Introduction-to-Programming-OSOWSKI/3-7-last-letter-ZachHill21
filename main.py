@@ -1,9 +1,9 @@
 
-def lastLetter(string): 
-    string = string + " "
-    for i in range(len(string)): 
-        if string[i] == ' ': 
-            print(string[i - 1], end = " ") 
+def lastLetter(a): 
+    a = a + " "
+    for i in range(len(a)): 
+        if a[i] == ' ': 
+            print(a[i - 1], end = " ") 
   
-string = "minnesota"
-lastLetter(string) 
+a = "minnesota"
+lastLetter(a) 
